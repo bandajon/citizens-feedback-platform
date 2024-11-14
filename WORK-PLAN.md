@@ -1,4 +1,4 @@
-# **Adjusted Implementation Plan for the Zambia Citizen Feedback Platform**
+# **Implementation Plan for the Zambia Citizen Feedback Platform**
 
 ## **Table of Contents**
 
