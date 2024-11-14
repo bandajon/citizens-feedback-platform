@@ -108,7 +108,7 @@ The Zambia Citizen Feedback Platform is a national initiative designed to enhanc
 - **User Reporting**: Mechanisms for users to report spam or abusive content.
 - **Confidentiality Assurance**: Special protocols to protect the identity of government employees reporting internal concerns.
 
-### **8. **Emergency and Priority Reporting**
+### **8. Emergency and Priority Reporting**
 
 - **Urgent Issue Flagging**: Users can flag submissions as urgent, triggering immediate alerts to relevant authorities.
 - **Priority Channels for Government Employees**: Dedicated channels for government employees to report critical issues confidentially.
