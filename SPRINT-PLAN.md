@@ -2,7 +2,7 @@
 
 ## **Introduction**
 
-This sprint plan outlines the detailed activities, timelines, and deliverables for the development of the Zambia Citizen Feedback Platform from December 1, 2024, to March 31, 2025. The plan is divided into eight sprints, each lasting two weeks, aligning with Agile methodologies to ensure iterative development, continuous feedback, and timely delivery of the project objectives.
+This sprint plan emphasis our commitment to having a of a **Product Manager** instead of a **Business Analyst**. The Product Manager will assume responsibilities that include business analysis, stakeholder engagement, and product vision alignment. The plan outlines the detailed activities, timelines, and deliverables for the development of the Zambia Citizen Feedback Platform from December 1, 2024, to March 31, 2025.
 
 ---
 
@@ -31,13 +31,13 @@ This sprint plan outlines the detailed activities, timelines, and deliverables f
 ### **Tasks**
 
 - **Onboarding and Training**
-  - Conduct team introductions and role clarifications.
+  - Conduct team introductions and clarify roles and responsibilities.
   - Set up communication channels and project management tools.
 - **Requirement Gathering**
-  - Hold workshops with stakeholders to gather detailed requirements.
+  - **Product Manager** leads workshops with stakeholders to gather detailed requirements.
   - Document functional and non-functional requirements.
 - **Business Analysis**
-  - Analyze current processes and identify areas for improvement.
+  - **Product Manager** analyzes current processes and identifies areas for improvement.
   - Create user stories and acceptance criteria.
 - **System Architecture**
   - Develop high-level system architecture diagrams.
@@ -73,7 +73,7 @@ This sprint plan outlines the detailed activities, timelines, and deliverables f
 ### **Tasks**
 
 - **UI/UX Design Completion**
-  - Finalize mockups for all key interfaces.
+  - **Product Manager** works with designers to finalize mockups for all key interfaces.
   - Get stakeholder approval on designs.
 - **Environment Setup**
   - Configure development, testing, and staging environments.
@@ -165,6 +165,9 @@ This sprint plan outlines the detailed activities, timelines, and deliverables f
 - **Anonymity Features**
   - Implement options for anonymous submissions.
   - Ensure data models handle confidentiality appropriately.
+- **Product Management Tasks**
+  - **Product Manager** coordinates with mobile operators and API providers.
+  - Update stakeholders on development progress.
 
 ### **Deliverables**
 
@@ -203,6 +206,9 @@ This sprint plan outlines the detailed activities, timelines, and deliverables f
 - **Testing Preparation**
   - Write unit tests for new modules.
   - Prepare test plans and testing environments.
+- **Product Management Tasks**
+  - **Product Manager** works with stakeholders to define admin requirements.
+  - Ensure emergency protocols align with government standards.
 
 ### **Deliverables**
 
@@ -233,7 +239,7 @@ This sprint plan outlines the detailed activities, timelines, and deliverables f
   - Perform integration testing across all modules.
   - Conduct performance and load testing.
 - **User Acceptance Testing (UAT)**
-  - Engage selected users to test the platform.
+  - **Product Manager** coordinates UAT with selected users.
   - Collect feedback and identify issues.
 - **GSB Integration**
   - Integrate e-identity (ZamPass), e-signature (ZamSign), and e-notifications (ZamNotify).
@@ -271,7 +277,7 @@ This sprint plan outlines the detailed activities, timelines, and deliverables f
   - Address identified security issues.
 - **Compliance Checks**
   - Ensure compliance with data protection and privacy laws.
-  - Obtain necessary certifications or approvals.
+  - **Product Manager** obtains necessary certifications or approvals.
 - **Performance Optimization**
   - Optimize database queries and application code.
   - Implement caching mechanisms where appropriate.
@@ -307,7 +313,7 @@ This sprint plan outlines the detailed activities, timelines, and deliverables f
   - Deploy the platform to the staging environment for final testing.
   - Roll out to production environments upon approval.
 - **Training**
-  - Conduct training sessions for government officials and staff.
+  - **Product Manager** leads training sessions for government officials and staff.
   - Provide user manuals and support materials.
 - **Communications Campaign**
   - Launch marketing efforts via text campaigns, social media, radio, and TV.
@@ -367,42 +373,66 @@ This sprint plan outlines the detailed activities, timelines, and deliverables f
 
 ---
 
+## **Team Roles and Responsibilities**
+
+### **Product Owner (Jonah Banda)**
+
+- Define project vision and priorities.
+- Engage with stakeholders and manage expectations.
+
+### **Product Manager**
+
+- **Combines roles of Business Analyst and additional product responsibilities.**
+- Gather requirements and create user stories.
+- Prioritize backlog items based on business value.
+- Coordinate with the development team to ensure alignment with product goals.
+- Facilitate communication between stakeholders and the team.
+- Lead user acceptance testing and training sessions.
+
+### **Technical Lead / Senior Developer**
+
+- Oversee technical implementation.
+- Make architectural decisions.
+- Mentor development team members.
+
+### **Developers**
+
+- Implement assigned features and modules.
+- Participate in code reviews and testing.
+- Collaborate with the Product Manager to clarify requirements.
+
+### **QA Engineer**
+
+- Develop and execute test plans.
+- Report bugs and verify fixes.
+- Ensure the product meets quality standards.
+
+### **DevOps Engineer**
+
+- Manage CI/CD pipelines.
+- Ensure smooth deployment processes.
+- Optimize infrastructure for performance and scalability.
+
+### **Admin Person**
+
+- Handle non-development tasks such as scheduling, documentation, and communications.
+- Assist the Product Manager with administrative duties.
+
+---
+
 ## **Additional Details**
-
-### **Team Roles and Responsibilities**
-
-- **Product Owner**
-  - Define project vision and priorities.
-  - Engage with stakeholders and manage expectations.
-- **Business Analyst**
-  - Gather requirements and create user stories.
-  - Assist in testing and validation of features.
-- **Technical Lead / Senior Developer**
-  - Oversee technical implementation.
-  - Mentor development team members.
-- **Developers**
-  - Implement assigned features and modules.
-  - Participate in code reviews and testing.
-- **QA Engineer**
-  - Develop and execute test plans.
-  - Report bugs and verify fixes.
-- **DevOps Engineer**
-  - Manage CI/CD pipelines.
-  - Ensure smooth deployment processes.
-- **Admin Person**
-  - Handle non-development tasks such as scheduling, documentation, and communications.
 
 ### **Tools and Technologies**
 
-- **Project Management:** Azure DevOps
-- **Version Control:** GitHub
-- **Communication:** Slack
-- **Development Languages:** Go (Golang), JavaScript (for frontend), python (scripts and AI API's)
+- **Project Management:** Jira or Azure DevOps
+- **Version Control:** GitHub or GitLab
+- **Communication:** Slack or Microsoft Teams
+- **Development Languages:** Go (Golang), JavaScript (for frontend)
 - **Frameworks:** Gin (Go), React or Angular (Frontend)
-- **Databases:** PostgreSQL (POSTGIS)
+- **Databases:** PostgreSQL
 - **Containerization:** Docker
 - **Orchestration:** Kubernetes
-- **APIs and Integrations:** OpenAI API, Zamtel SMS API, e-Notifications service (ZamNotify), e-Identity service (ZamPass), GSB Microservices
+- **APIs and Integrations:** OpenAI API, Zamtel SMS API, GSB Microservices
 
 ### **Risk Management**
 
@@ -413,6 +443,6 @@ This sprint plan outlines the detailed activities, timelines, and deliverables f
 - **Mitigation Strategies:**
   - Plan ahead for holidays and adjust schedules.
   - Begin integration work early to identify challenges.
-  - Stay updated on regulatory requirements and engage legal counsel if needed.
+  - **Product Manager** stays updated on regulatory requirements and engages legal counsel if needed.
 
 ---
